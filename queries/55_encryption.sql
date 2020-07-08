@@ -1,0 +1,3 @@
+BACKUP SERVICE MASTER KEY
+TO FILE = 'c:\myfile.txt'
+ENCRYPTION BY PASSWORD = 'somePassword'

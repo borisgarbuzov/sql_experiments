@@ -1,0 +1,10 @@
+CREATE LOGIN [Boris-PC\Mary]
+    FROM WINDOWS
+    WITH DEFAULT_DATABASE = [TestData];
+GO
+
+USE [TestData];
+GO
+
+CREATE USER [Mary] FOR LOGIN [Boris-PC\Mary];
+GO

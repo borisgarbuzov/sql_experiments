@@ -1,0 +1,1 @@
+select * from db1.table_1 where (col1 is null)
